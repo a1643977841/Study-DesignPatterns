@@ -1,3 +1,4 @@
 # Project exclude paths
 /DesignPrinciple/target/
 /.idea
+/DesignPrinciple/DesignPrinciple.iml
