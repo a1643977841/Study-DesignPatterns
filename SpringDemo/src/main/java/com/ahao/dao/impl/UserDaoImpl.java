@@ -12,8 +12,29 @@ import com.ahao.dao.UserDao;
  * @date 2022/4/6 21:39
  */
 public class UserDaoImpl implements UserDao {
+
+    private String username;
+
+    private String password;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Override
     public void add() {
-        System.out.println("UserDAO.....");
+        System.out.println("UserDAO....." + username + ":" + password);
     }
 }
